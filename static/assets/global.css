@@ -1,0 +1,90 @@
+:root {
+    --cherry-blossom-pink: hsla(342, 86%, 83%, 1);
+    --rose-pompadour: hsla(342, 78%, 70%, 1);
+    --celadon: hsla(126, 30%, 72%, 1);
+    --cambridge-blue: hsla(130, 23%, 64%, 1);
+    --cambridge-blue-2: hsla(128, 16%, 52%, 1);
+    --hunter-green: hsla(124, 18%, 31%, 1);
+    --eerie-black: hsla(130, 26%, 9%, 1);
+
+    --sheer-blk:  hsla(130, 26%, 9%, 0.7);
+    --basic-white: hsla(0, 0%, 100%, 1);
+}
+
+@font-face {
+    font-family: "Tangerine bold";
+    src: url(Tangerine-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Tangerine regular";
+    src: url(Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(Lato-Black.ttf);
+    font-weight: 200;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+    scroll-behavior: smooth;
+}
+
+.bg-img {
+    background-image: url(bg-lj.webp);
+    background-size: 100vw 100vh;  
+    background-repeat: no-repeat;
+    font-family: "Lato";
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section {
+    padding: 3em;
+    color: var(--basic-white);
+    background-color: var( --sheer-blk);
+    margin: 0 auto;
+    font-family: "lato";
+}
+
+h1, h2{
+    padding: 1em 0;
+    text-transform: capitalize
+}
+
+h1 {
+    font-size: 3.25em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: var(--rose-pompadour);
+}
+
+h4, h5 {
+    font-size: 1em;
+    color: var(--cherry-blossom-pink);
+    padding: 0.5em 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul, ol {
+    padding: 0.5em;
+  }
